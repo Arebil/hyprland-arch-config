@@ -24,6 +24,23 @@ Firefox & disown
 zen-browser & disown
 ```
 
+### Connect to wifi
+```bash
+systemctl start iwd.service
+iwctl
+device list
+```
+Copy the device name (ex: wlan0)
+```bash
+station wlan0 scan
+station wlan0 get-networks
+```
+Copy the network name (ex: Vodafone-B111199999)
+```bash
+station wlan0 connect Vodafone-B111199999
+exit
+```
+
 ### Connect your device via bluetooth
 ```bash
 bluetoothctl
@@ -33,7 +50,7 @@ default-agent
 scan on
 devices
 ```
-Copy MAC Address of your device (es: 00:1A:2B:3C:4D:5E)
+Copy MAC Address of your device (ex: 00:1A:2B:3C:4D:5E)
 
 ```bash
 pair 00:1A:2B:3C:4D:5E
@@ -49,4 +66,11 @@ sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+```
+
+### Bibata Cursor Theme
+[Bibata Cursor Github Repository](https://github.com/ful1e5/Bibata_Cursor)
+#### Installation
+```bash
+yay -S bibata-cursor-theme
 ```

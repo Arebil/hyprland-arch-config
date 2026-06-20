@@ -11,6 +11,19 @@ require("modules.monitors")
 require("modules.autostart")
 require("modules.permissions")
 
+-------------------------------
+---- ENVIRONMENT VARIABLES ----
+-------------------------------
+
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
+--[[
+hl.env("XCURSOR_SIZE", "48")
+hl.env("HYPRCURSOR_SIZE", "48")
+hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
+]]
+
+
 -----------------------
 ---- LOOK AND FEEL ----
 -----------------------
