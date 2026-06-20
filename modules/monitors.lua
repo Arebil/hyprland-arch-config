@@ -4,7 +4,7 @@
 
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
 hl.monitor({
-    output   = "",
+    output   = "eDP-1", --hyprctl monitors
     mode     = "preferred",
     position = "auto",
     scale    = "auto",

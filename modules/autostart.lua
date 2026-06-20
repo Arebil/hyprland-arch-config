@@ -12,3 +12,7 @@
 --   hl.exec_cmd("nm-applet")
 --   hl.exec_cmd("waybar & hyprpaper & firefox")
 -- end)
+
+hl.on("hyprland.start", function()
+    hl.exec_cmd("hyprpaper -c /home/arebil/.config/hypr/hyprpaper.conf")
+end)

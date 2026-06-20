@@ -4,11 +4,16 @@
 - [Installation Guide](https://wiki.archlinux.org/title/Installation_guide)  
 - [Other ways to install Zed on Linux](https://zed.dev/docs/linux#other-ways-to-install-zed-on-linux)  
 - [How to install Zen Browser on Arch](https://gustawdaniel.com/notes/how-to-install-zen-browser-on-arch/)
+- [Rofi Configuration for Linux](https://keepfloyding.github.io/posts/rofi-config-on-linux/)
 
 ## HYPR WIKI
 - [Start Here](https://wiki.hypr.land/Configuring/Start/)  
 - [hyprcursor](https://wiki.hypr.land/Hypr-Ecosystem/hyprcursor/)  
 - [Environment Variables](https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/)  
+
+# Other links
+- [Hatsune Miku Cursors](https://github.com/supermariofps/hatsune-miku-windows-linux-cursors)
+- [Wallhaven](https://wallhaven.cc/)
 
 ## Useful Commands
 ### Open .config with Zed
